@@ -36,7 +36,7 @@ EOF
     update-alternatives --install \
         /usr/share/images/desktop-base/desktop-background \
         desktop-background \
-        /usr/share/desktop-base/active-theme/wallpaper/contents/images/1920x1080.svg 70
+        /usr/share/desktop-base/polilinux-theme/wallpaper/contents/images/1980x1080.png 70
     # Alternatives for the background in theme packages
     while read theme filename priority; do
         update-alternatives --install \
@@ -44,15 +44,15 @@ EOF
             desktop-background \
             /usr/share/desktop-base/$theme-theme/wallpaper/contents/images/$filename $priority
     done << EOF
-polilinux 1024x768.svg 70
-polilinux 1280x720.svg 70
-polilinux 1280x800.svg 70
-polilinux 1280x1024.svg 70
-polilinux 1600x1200.svg 70
-polilinux 1920x1080.svg 70
-polilinux 1920x1200.svg 70
-polilinux 2560x1440.svg 70
-polilinux 2560x1600.svg 70
+polilinux 1024x768.png 70
+polilinux 1280x800.png 70
+polilinux 1280x1024.png 70
+polilinux 1600x1200.png 70
+polilinux 2560x1440.png 70
+polilinux 2560x1600.png 70
+polilinux 1440x900.png 70
+polilinux 1638x1024.png 70
+polilinux 1980x1080.png 70
 softwaves 1024x768.svg 65
 softwaves 1280x720.svg 65
 softwaves 1280x800.svg 65
