@@ -2,7 +2,7 @@ Package: desktop-base
 Version: 9.0.2
 Architecture: all
 Maintainer: Gustavo Franco <stratus@debian.org>
-Installed-Size: 24422
+Installed-Size: 24216
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Depends: librsvg2-common
 Suggests: gnome | kde-standard | xfce4 | wmaker

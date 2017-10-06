@@ -55,11 +55,11 @@ bb691b9a18d76587eb1a536a1f95c146  usr/share/desktop-base/lines-theme/wallpaper/c
 6f2f6e9a7da6e49b6651f1cc2c75cd7b  usr/share/desktop-base/lines-theme/wallpaper/contents/images/3840x2160.svg
 9868d0c51ce61e25a383cad9b5cee4f8  usr/share/desktop-base/lines-theme/wallpaper/gnome-background.xml
 c1c731ce91db340ee56876e5bf95cb57  usr/share/desktop-base/lines-theme/wallpaper/metadata.desktop
-e4a89d89ab0088c4a3673c9160bcfed7  usr/share/desktop-base/polilinux-theme/gnome-wp-list.xml
+1bad1eb2554a617ff1d1b7a08e4dbb1e  usr/share/desktop-base/polilinux-theme/gnome-wp-list.xml
 50bb5d0f43485e418f79c07515699d4f  usr/share/desktop-base/polilinux-theme/grub/Makefile
-98ee05745ccbbacd79f45805862615c5  usr/share/desktop-base/polilinux-theme/grub/grub-16x9.png
+51e50c3764aa0d7657f4d4433b4d7d14  usr/share/desktop-base/polilinux-theme/grub/grub-16x9.png
 690ed829e31f55410bd404e35a4b7248  usr/share/desktop-base/polilinux-theme/grub/grub-16x9.svg
-3cdf5903d902a4b645599d79cd845bc0  usr/share/desktop-base/polilinux-theme/grub/grub-4x3.png
+51e50c3764aa0d7657f4d4433b4d7d14  usr/share/desktop-base/polilinux-theme/grub/grub-4x3.png
 7091761a9feef3c5d307497b2eeb0c55  usr/share/desktop-base/polilinux-theme/grub/grub-4x3.svg
 bd899b6ae2284b928454064a7ed663ca  usr/share/desktop-base/polilinux-theme/grub/grub_background.sh
 cd6e1a2425b4d68a8c863c1d8aac5554  usr/share/desktop-base/polilinux-theme/lockscreen/contents/images/1024x768.png
@@ -75,10 +75,10 @@ bd93059d4b8fc022a032b4fd6c2fcafa  usr/share/desktop-base/polilinux-theme/lockscr
 5ac10c7b540e2f8393baaeea39cb23ac  usr/share/desktop-base/polilinux-theme/lockscreen/contents/images/3200x1800.png
 4bf2e1d8768e3b03b51b4c11fe4ad3ae  usr/share/desktop-base/polilinux-theme/lockscreen/contents/images/3200x2000.png
 163601b0eaa3f15e1f990cfd1155a0a8  usr/share/desktop-base/polilinux-theme/lockscreen/contents/images/3840x2160.png
-91d3ed0cb3b9523f76d97bb0734c9015  usr/share/desktop-base/polilinux-theme/lockscreen/gnome-background.xml
+32ed832d2446cd5910e365206f83466b  usr/share/desktop-base/polilinux-theme/lockscreen/gnome-background.xml
 b80d24f269dcdc5e2144277b3d6a19d9  usr/share/desktop-base/polilinux-theme/lockscreen/metadata.desktop
-ece7ac729313a11874157129803b0b5d  usr/share/desktop-base/polilinux-theme/login/background-nologo.svg
-ece7ac729313a11874157129803b0b5d  usr/share/desktop-base/polilinux-theme/login/background.svg
+fddb401e8439c77c5ba7aae84c8f41b0  usr/share/desktop-base/polilinux-theme/login/background-nologo.svg
+fddb401e8439c77c5ba7aae84c8f41b0  usr/share/desktop-base/polilinux-theme/login/background.svg
 2da7105dd89a9a8876454dcb74bc40d1  usr/share/desktop-base/polilinux-theme/login/sddm-preview.jpg
 e16f324637a00ddeb8b313359b8a1f5f  usr/share/desktop-base/polilinux-theme/plymouth/debian.png
 605e8fd86078501d51a5d93a97ce9f1f  usr/share/desktop-base/polilinux-theme/plymouth/logo.png
@@ -104,7 +104,7 @@ bd93059d4b8fc022a032b4fd6c2fcafa  usr/share/desktop-base/polilinux-theme/wallpap
 5ac10c7b540e2f8393baaeea39cb23ac  usr/share/desktop-base/polilinux-theme/wallpaper/contents/images/3200x1800.png
 4bf2e1d8768e3b03b51b4c11fe4ad3ae  usr/share/desktop-base/polilinux-theme/wallpaper/contents/images/3200x2000.png
 163601b0eaa3f15e1f990cfd1155a0a8  usr/share/desktop-base/polilinux-theme/wallpaper/contents/images/3840x2160.png
-8d6da32d145c467d6005e21426dcef8f  usr/share/desktop-base/polilinux-theme/wallpaper/gnome-background.xml
+76ec18a9c353befc95d86946129b5903  usr/share/desktop-base/polilinux-theme/wallpaper/gnome-background.xml
 6f4b80272d7a10af7ab2c71155972fc8  usr/share/desktop-base/polilinux-theme/wallpaper/metadata.desktop
 5ec4520485a844fac981c00bf44255c4  usr/share/desktop-base/profiles/xdg-config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 4b1ab7018d66717f93d1090d11ae45f0  usr/share/desktop-base/profiles/xdg-config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
@@ -161,7 +161,7 @@ c4a919f14974996cb448ce610a2aff6c  usr/share/glib-2.0/schemas/10_desktop-base.gsc
 fd25902cb37844177ccd15aa0209fe64  usr/share/gnome-background-properties/debian-joy-inksplat.xml
 e8bf86e8de5ff09210b231427ab7ae5e  usr/share/gnome-background-properties/debian-joy.xml
 e9c193400886442d117ba87dda1bee63  usr/share/gnome-background-properties/debian-lines.xml
-e4a89d89ab0088c4a3673c9160bcfed7  usr/share/gnome-background-properties/debian-polilinux.xml
+1bad1eb2554a617ff1d1b7a08e4dbb1e  usr/share/gnome-background-properties/debian-polilinux.xml
 e4a89d89ab0088c4a3673c9160bcfed7  usr/share/gnome-background-properties/debian-softwaves.xml
 8cb2f8f36acd3d329b9ca256af753562  usr/share/gnome-background-properties/debian-spacefun.xml
 e60be48372272727fe8665afdbe6094c  usr/share/pixmaps/debian-security.png
