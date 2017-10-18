@@ -1,0 +1,168 @@
+Você digitou o comando
+cat MyFile | sort > DirList &
+e o sistema respondeu com
+[4] 3499
+O que isso significa?
+	O job é 4 e o PID do sort é 3499
+
+Utilizando os conceitos de expressões regulares, descreva um metacharacter. 
+	Eles são caracteres de controle especiais usados na expressão regular. 
+
+ Qual dos comandos seguintes seria o ideal para melhor montar um CD-ROM que contém uma distribuição de Linux, sem depender de qualquer arquivo de configuração? 
+ 	mount -t iso9660 /dev/cdrom /mnt/cdrom 
+
+
+  Qual das opções seguintes corresponde aos resultados comando: # chmod g+s /home/software ? 
+  O bit SGID será habilitado para /home/software para manter as permissões do grupo do diretório consistente para todos os arquivos criados. 
+
+   Como você pode descrever o comando a seguir? $ tail -f /var/log/messages 
+
+
+    Exibe toda linha nova do arquivo /var/log/messages enquanto este arquivo está crescendo. 
+
+  A Carla tem um arquivo de texto nomeado lista_convidados que contém 12 linhas. Ela executou o comando abaixo. Qual é o resultado obtido?
+$ split - 4 lista_convidados gl 
+As linhas de lista_convidados são divididas uniformemente entre novos arquivos glaa, glab, e glac. 
+
+ O que o comando pr faz? 
+ Pagina arquivos de texto. 
+
+
+  Você quer alterar as cotas de um usuário. Como fazer isso? 
+
+  	Usar o comando edquota usuário
+
+   Para uma estação de trabalho de Internet com uma única interface de rede, que rotas devem ser adicionadas para conectar eth0 depois que seja inicializado? 
+
+   	Interface, local network e default gateway
+
+   	 Qual dos diretórios seguintes são absolutamente necessários ao diretório raiz? Selecione todas as alternativas corretas.
+
+   	 /etc /lib
+
+   	  Um sistema de arquivos ext2 é configurado com cotas de usuário habilitadas. O limite soft é fixo em 100 MB por usuário, o limite hard é fixo em 110 MB por usuário, e o período de graça é de sete dias. O usuário João já possui 90 MB dos dados armazenados no sistema. O que acontecerá quando o João tentar gravar um arquivo novo de tamanho 30 M? Selecione a opção correta. 
+
+   	  A gravação falhará, e o arquivo será truncado permanentemente. 
+
+
+   	 Você quer fazer uma cópia de todos os arquivos e diretórios no HOME para outro dispositivo. Qual o comando apropriado?
+
+
+    O arquivo de log está reportando conexões na porta 143. Qual é o serviço que está sendo oferecido? 
+ 	imap
+
+ 	Depois de verificar os arquivos de log do servidor de logs, você percebeu que as máquinas clientes do syslogd estão sendo identificadas pelo IP ao invés do hostname, mesmo que o DNS esteja rodando normalmentComo você fará para que as máquinas sejam identificadas pelo hostname e não pelo IP?
+
+ 	Adicionaria todas as máquinas clientes no /etc/hosts do servidor e reiniciaria o syslogd. 
+
+ 	 No bash shell, executar o comando !! tem o mesmo efeito de qual dos seguintes comandos? 
+ 	 Ctrl-P e Enter 
+
+ 	  Que ferramenta você poderia usar para mudar a prioridade de um processo corrente? 
+ 	  renice 
+
+ 	  Você fez telnet em vários servidores ao mesmo tempo. Durante o dia você se sente perdido em qual sessão está conectado. Qual o comando no seu .profile resolveria este problema deixando claro em qual o servidor você está conectado?
+ 	  PS1="\h: \w>" 
+
+ 	  Você quer saber as informações sobre as partições do sistema. Qual arquivo informa isto?
+ 	  /proc/partitions 
+
+
+ 	   O que é descrito pelas variáveis PS1 e PS2?
+ 	   prompt normal e prompt estendido
+
+ 	   Você ficou sem espaço no seu diretório homAo vasculhar pelo que apagar você encontrou o arquivo .bash_history muito grande e o apagou. Dias depois o arquivo ficou grande novamentO que fazer para que este arquivo não cresça muito?
+
+ 	   Alterar a variável HISTFILESIZE para um valor menor. 
+
+ 	   Como você verifica a versão do kernel no diretório /usr/src/linux? 
+
+ 	   head -4 /usr/src/linux/Makefile 
+
+ 	    O usuário Mário , membro do grupo de finanças, possui um arquivo de texto com grupo finanças e permissão 0077. Quais afirmativas a seguir são verdadeiras em relação ao acesso para ver os conteúdos do arquivo, considerando que o diretório tem permissões 0777? Selecione todas as alternativas possíveis. 
+
+ 	    O Mário poderá mudar o modo de proteção do arquivo primeiro e então pode ver os conteúdos do arquivo.
+Todo o mundo no grupo de finanças pode ver os conteúdos do arquivo, exceto o Mário. 
+
+
+	Toda vez que você tenta deletar um arquivo usando o rm, o sistema pergunta por confirmação. Você sabe que esta não é o comportamento padrão do rm. O que há de diferente para ele fazer isto?
+	foi criado um alias do rm para rm -i 
+
+	 O qual dos comandos seguintes pode ser usado para conferir um sistema de arquivos ext2 ? Selecione todas as alternativas que sejam aplicáveis. 
+	 fsck /dev/hda5
+e2fsck /dev/hda5
+fsck.ext2 /dev/hda5
+
+	Ricardo está trabalhando atualmente em um diretório que contém só um arquivo chamado faq.txt. O que é exibido logo depois que os comandos seguintes são executados no bash? Selecione a opção correta. # MYVAR=ls # echo $MYVAR "$MYVAR" ’$MYVAR’ `$MYVAR`
+	 ls ls $MYVAR faq.txt 
+
+	  Como os comandos cat e tac estão relacionados? 
+	  cat exibe arquivos e tac faz o mesmo, mas em ordem inversa. 
+
+	 Depois de digitar um comando, você recebe uma mensagem de erro indicando sintaxe incorreta. Quem é o autor da mensagem?
+	 o comando ou o programa
+
+	 Você digitou o seguinte comando "ls -al /home/ hadden". Quais teclas para retirar o espaço entre a barra -/- e a palavra -hadden- sem redigitar o comando?
+	 Esc-b, Del
+
+	  Quantos dispositivos de IDE podem ser instalados simultaneamente em um sistema Intel típico? 
+	  4
+
+	   Qual dos comandos a seguir é usado para pôr em segundo plano um programa que está prendendo o terminal de modo que ele continue processando? 
+
+	   Ctrl-Z e então entrar com o comando bg
+
+	    Qual expressão regular a seguir pode ser capaz de filtras as palavras "Linux" e "linux", mas não "linux.com" e "TurboLinux"? 
+	    [Ll]inux
+
+
+	    Onde a informação de cota para usuários do volume /home está armazenada? 
+	    /home/quota.user
+
+
+	    Qual dos comandos a seguir é equivalente ao comando # chmod 754 ~/arquivo1 para o usuário João cujo diretório home é /home/joao? 
+	    chmod u=rwx,g=rx,o=r /home/joao/file1
+
+	    Você quer que o vi seja o seu editor padrão. Como fazer isto todas as vezes que você logar no sistema?
+	    Alterar o arquivo ~/.inputrc 
+
+	     Que comando pode exibir os conteúdos de um arquivo binário em uma forma de hexadecimal legível? Selecione a opção correta. 
+	     od
+
+	      O que o diretório /sbin contém? Selecione a melhor resposta. 
+	      Comandos necessários em caso de uma emergência do sistema e de interesse do administrador principalmente. 
+
+	      Qual o arquivo no /proc informa os parâmetros passados ao Kernel durante o processo de boot?
+	      /proc/cmdline 
+
+	      Você quer executar uma série de comandos de uma só vez. Qual a maneira mais rápida de fazer isto?
+	      separar os comandos com ponto-e-vírgula (;) e pressionar enter
+
+	       O que aconteceria se um sistema de arquivos ficasse sem inodes disponíveis? 
+	       Nenhum comando seria possível no sistema de arquivos até que os arquivos existentes fossem apagados. 
+
+	       O seguinte shell é executado pelo cron regularmente
+x=$(find /home -name .rhost 2>/dev/null)
+for i in $x; do
+$y(echo $I | cut -d/ -f3);z="$z $y"
+rm $I;done
+echo "Notice: $z" | mail root@example.com
+O que este script faz?
+
+Notifica o root da existência de todos os arquivos .rhost.
+
+
+Você executou o comando find para encontrar um arquivo. Você quer rodar o comando novamente. Qual a maneira mais rápida de fazer isto?
+fc -l find 
+
+Em um sistema com partições separadas /, /usr, /var, /tmp, quais delas podem seguramente ser montadas como somente leitura?
+/usr
+
+Em um sistema com partições separadas /, /usr, /var, /tmp, quais delas podem seguramente ser montadas como somente leitura?
+echo $PATH
+
+
+Quais dos comandos seguintes exibem os comentários do bash script? Selecione todas as alternativas possíveis. sed ’/^#/ !d’ /etc/rc.d/init.d/httpd
+grep ^# /etc/rc.d/init.d/httpd
+
+
